@@ -20,7 +20,7 @@ export class SignupComponent implements OnInit {
   userType:number=3;
   userId:number=2;
   error:string='';
- imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+ imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
   @Output() customerChange:EventEmitter<number> =new EventEmitter<number>();
 

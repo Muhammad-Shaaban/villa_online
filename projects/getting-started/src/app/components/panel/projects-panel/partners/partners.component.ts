@@ -12,7 +12,7 @@ export class PartnersComponent implements OnInit {
   isLoaded:boolean=false;
  formData : FormData = new FormData();
  project={url:'',id:0}
- imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+ imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
 
   constructor(private _dashService:DashboardPanelService,private message:NzMessageService) { }

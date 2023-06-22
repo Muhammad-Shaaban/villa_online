@@ -13,7 +13,7 @@ export class ProfisionalityComponent implements OnInit {
  formData : FormData = new FormData();
  project={id:0,title:'',data:'',order:0,professionalismPanalPics:[{url:''}]}
  projects=[this.project];
- imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+ imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
 
   constructor(private _dashService:DashboardPanelService,private message:NzMessageService) { }

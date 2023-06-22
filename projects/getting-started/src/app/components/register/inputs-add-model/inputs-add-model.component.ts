@@ -16,7 +16,7 @@ export class InputsAddModelComponent implements OnInit,AfterViewInit {
   constructor(private _apiService :ApiService,private message:NzMessageService) { }
   project=new projectModel;
   projectId:number=0;
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/';
 
   ngOnInit(): void {
     // this.getCurrentUser()

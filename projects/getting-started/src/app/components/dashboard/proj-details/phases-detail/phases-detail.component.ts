@@ -12,7 +12,7 @@ import { LightGallery } from 'lightgallery/lightgallery';
   styleUrls: ['./phases-detail.component.scss']
 })
 export class PhasesDetailComponent implements OnInit {
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/';
   isReview:boolean=false;
   tooltips = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
   value = 0;

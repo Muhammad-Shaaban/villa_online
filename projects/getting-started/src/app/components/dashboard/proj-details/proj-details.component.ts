@@ -22,7 +22,7 @@ export class ProjDetailsComponent implements OnInit {
   projectDetails = new projectModel;
   projectPhase = new phaseModel;
   projectService = new serviceModel;
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/';
   user:UserModel=new UserModel;
   userId:number=0;
   isLoaded:boolean=false;

@@ -15,7 +15,7 @@ export class ProjectsComponent implements OnInit {
   project1:{title:'',data:'',url:''}[]=[];
   project2:{title:'',data:'',url:''}[]=[];
   project3:{title:'',data:'',url:''}[]=[];
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
   ngOnInit(): void {
     this.getProjectByType(1)

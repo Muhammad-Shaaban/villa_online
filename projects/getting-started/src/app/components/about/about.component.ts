@@ -12,7 +12,7 @@ export class Project{
 })
 
 export class AboutComponent implements OnInit {
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
   constructor(private _dashService:DashboardPanelService) { }
 

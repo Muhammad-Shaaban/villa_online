@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://villaonline.co/api',
+  baseUrl: 'https://villaonline.co/api',
   //baseUrl: 'https://localhost:44311/api',
   baseUrlNotification : 'https://localhost:44311/',
   invitationUrl:'https://villaonline.co'

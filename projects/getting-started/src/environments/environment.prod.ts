@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://villaonline.co/api',
+  baseUrl: 'https://villaonline.co/api',
   invitationUrl:'https://villaonline.armaa4dtt.com'
 };

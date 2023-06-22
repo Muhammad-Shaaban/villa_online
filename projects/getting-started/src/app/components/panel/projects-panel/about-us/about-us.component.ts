@@ -13,7 +13,7 @@ export class AboutUsComponent implements OnInit {
   isLoaded:boolean=false;
  formData : FormData = new FormData();
  project={title:'',data:'',order:0,typeID:0}
- imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+ imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
 
   constructor(private _dashService:DashboardPanelService,private message:NzMessageService) { }

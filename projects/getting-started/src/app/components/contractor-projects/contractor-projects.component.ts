@@ -22,7 +22,7 @@ export class ContractorProjectsComponent implements OnInit {
   projectType:projectTypeModel[]=[];
   regions:regionModel[]=[]
   form:FormGroup= new FormGroup({});
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/';
   isLoaded:boolean=false;
 
   constructor(private _apiservice:ApiService,private router:Router,private fb:FormBuilder) { }

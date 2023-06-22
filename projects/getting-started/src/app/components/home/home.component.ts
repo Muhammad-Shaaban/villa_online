@@ -14,8 +14,8 @@ export class HomeComponent implements OnInit ,AfterViewInit{
 
   services:any;
   isLoaded=false;
-  imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
-  //imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+  imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
+  //imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
    @ViewChild('carousel1')
   carousel!: ElementRef;

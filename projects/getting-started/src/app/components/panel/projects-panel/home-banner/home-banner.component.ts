@@ -118,7 +118,7 @@ images:any[]=[];
       })
       )
     }
-    imgUrl:string='http://villaonline.co/wwwroot/Uploads/panal/';
+    imgUrl:string='https://villaonline.co/wwwroot/Uploads/panal/';
 
     deleteProject(id:number,index:number){
       this.isLoaded=false;
